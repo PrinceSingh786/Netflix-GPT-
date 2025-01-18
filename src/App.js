@@ -1,11 +1,10 @@
 import "./App.css";
 import "./index.css";
+import Body from "./components/Body";
 function App() {
   return (
     <div className="App">
-      <h1 className=" uppercase text-5xl font-bold text-red-900">
-        Namaste Bhaiya ji
-      </h1>
+      <Body />
     </div>
   );
 }
